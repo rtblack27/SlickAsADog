@@ -54,7 +54,7 @@ else{
 
 ?>
 	<div class="article">
-		<h1>What we do...</h1>
+		<h1>What we do..</h1>
 		<p>Here at 'Slick as a dog' we do our utmost to make your pet feel comfortable. We take great pride in bringing out the best in <br>their appearance
 			and we strive to give our customers peace of mind, knowing that their dog is in capable, caring hands.</p>
 		<p>We provide this a number of service ranging from wash and nails to a full show clip and grooming service.</p>
