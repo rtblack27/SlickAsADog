@@ -36,7 +36,7 @@
 
 		}
 		button {
-			background-color: #4CAF50; /* Green */
+			background-color: Transparent;
 			border: none;
 			color: white;
 			padding: 15px 32px;
@@ -44,7 +44,7 @@
 			font-size: 16px;
 		}
 		button:hover{
-			background-color: darkgreen ;
+			background-color: slategrey ;
 		}
 	</style>
 </head>

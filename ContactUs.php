@@ -17,6 +17,19 @@ include 'Header.php'
 			text-align: left;
 
 		}
+		.contact-button {
+			background-color: deepskyblue; /* Green */
+			border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+		}
+		.contact-button:hover{
+			background-color: darkcyan ;
+		}
 
 	</style>
 </head>
