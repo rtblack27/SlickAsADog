@@ -54,8 +54,9 @@ include 'Header.php'
 			<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
 		</div><br>
 		<input id="submit_button" class="contact-button" type="submit" value="Send email" />
-	</form><br>
+	</form><br><br>
 </div>
+<br>
 
 </body>
 </html>

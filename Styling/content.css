@@ -1,0 +1,41 @@
+h1{
+    font-family: sans-serif;
+}
+h3{
+    font-family: sans-serif;
+}
+p{
+    font-family: sans-serif;
+}
+.contact-form{
+    font-family: sans-serif;
+    border: solid;
+    text-align: center;
+    padding: 1.5em;
+    width: 41.15%;
+    margin-left: 725px;
+}
+.input{
+    border: ridge;
+    padding: 1em;
+    width: 300px;
+}
+
+
+li{
+    font-family: sans-serif;
+}
+.index-image{
+    position: relative;
+    margin-top: -55%;
+    margin-left: 950px;
+    width: 30%;
+    height: 30%;
+}
+
+ul{
+    list-style: none;
+}
+.FacebookIcon{
+    right: 100px;
+}
