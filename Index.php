@@ -17,6 +17,8 @@ include 'Header.php';
 <head lang="en">
 	<link rel="stylesheet" href="/Libraries/font-awesome-4.7.0/css/font-awesome.min.css">
 	<link href="Styling/content.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="/Libraries/NexaFreeBoldwebfont/font.css">
+
 	<meta charset="UTF-8">
 	<title></title>
 	<style>
@@ -27,32 +29,25 @@ include 'Header.php';
 			margin-bottom: 250px;
 			padding: 50px;
 			text-align: left;
+			font-family: NexaFreeBoldwebfont, sans-serif;
 		}
 		.articleFact {
 			padding-left: 50px;
 			padding-right: 50px;
 			padding-top: 30px;
 			text-align: left;
-			font-family: sans-serif;
+			font-family: NexaFreeBoldwebfont, sans-serif;
+
 		}
-		h3{
-			font-family: sans-serif;
+		h1, h3, p{
+			font-family: NexaFreeBoldwebfont, sans-serif;
 		}
-		.FacebookIcon{
-			float: right;
-			margin: 10px;
-			color: deepskyblue;
-		}
+
 
 
 	</style>
 </head>
 <body>
-
-<div class="FacebookIcon">
-<a href="https://www.facebook.com/slickasadoggrooming/" target="_blank"><i class="fa fa-5x fa-facebook-official" aria-hidden="true"></i></a>
-</div>
-
 <div class="articleFact">
 <?php
 $sql = "Select Fact from tblFunFacts WHERE FactID > 0 ORDER BY RAND() LIMIT 1";
@@ -80,6 +75,19 @@ mysqli_close($conn);
 	</div>
 
 	<img class="index-image" src="https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/dog-puppy-landing-hero.ashx">
+
+<h2>Where to find us</h2>
+
+<p>18a Cloveneden Road</p>
+<p>Loughgall</p>
+<p>County Armagh</p>
+<p>BT61 8JZ</p>
+
+<a href="https://www.facebook.com/slickasadoggrooming/" style="color: #21a7d5" target="_blank"><i class="fa fa-2x fa-facebook-official" aria-hidden="true"> Facebook</i></a> <br>
+<ul>
+	<li><i class="fa fa-envelope" aria-hidden="true"></i> Email</li>
+	<li><i class="fa fa-phone" aria-hidden="true"></i> Phone</li>
+</ul>
 
 </body>
 </html>

@@ -9,12 +9,19 @@
 
 	<style>
 		footer{
-			background-color: darkgrey;
+			background-color: grey;
 			text-align: center;
+		}
+		.WebsiteSig{
+			text-align: right;
+			font-family: sans-serif;
 		}
 	</style>
 </head>
 <body class="footer-body">
-<footer>Copyright © slickasadog.net</footer>
+<footer>© Slick as a dog, Loughgall, Co Armagh                       est. 2016</footer>
 </body>
+<div class="WebsiteSig">
+Website by Richard Black
+</div>
 </html>
